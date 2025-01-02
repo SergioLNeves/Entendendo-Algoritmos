@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 )
 
-func ListaPasta(path string) {
+func ListarPasta(path string) {
 	entries, err := os.ReadDir(path)
 	if err != nil {
 		fmt.Println("Error reading directory:", err)
@@ -16,7 +16,7 @@ func ListaPasta(path string) {
 	for _, entry := range entries {
 		fullPath := filepath.Join(path, entry.Name())
 		if entry.IsDir() {
-			ListaPasta(fullPath)
+			ListarPasta(fullPath)
 		} else {
 			fmt.Println(fullPath)
 		}
