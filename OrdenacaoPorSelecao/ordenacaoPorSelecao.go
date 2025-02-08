@@ -1,4 +1,4 @@
-package Ordenacao
+package OrdenacaoPorSelecao
 
 func BuscaMenorIndice(arr []int) int {
 

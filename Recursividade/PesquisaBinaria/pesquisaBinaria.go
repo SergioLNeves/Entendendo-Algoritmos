@@ -1,4 +1,4 @@
-package Recursividade
+package PesquisaBinaria
 
 func PesquisaBinaria(baixo, alto, valor int) int {
 	meio := (baixo + alto) / 2

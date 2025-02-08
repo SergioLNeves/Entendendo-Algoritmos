@@ -1,4 +1,4 @@
-package Recursividade
+package PesquisaBinaria
 
 import (
 	"github.com/stretchr/testify/assert"

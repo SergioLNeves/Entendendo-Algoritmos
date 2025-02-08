@@ -1,4 +1,4 @@
-package Recursividade
+package Soma
 
 func Soma(arr []int) int {
 	if len(arr) == 0 {

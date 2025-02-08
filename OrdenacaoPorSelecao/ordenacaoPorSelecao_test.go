@@ -1,4 +1,4 @@
-package Ordenacao
+package OrdenacaoPorSelecao
 
 import (
 	"github.com/stretchr/testify/assert"

@@ -1,4 +1,4 @@
-package Recursividade
+package Factorial
 
 func Factorial(n int) int {
 	if n == 0 || n == 1 {

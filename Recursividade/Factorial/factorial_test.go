@@ -1,4 +1,4 @@
-package Recursividade
+package Factorial
 
 import (
 	"github.com/stretchr/testify/assert"
