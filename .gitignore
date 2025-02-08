@@ -1,0 +1,5 @@
+# Test binary, built with `go test -c`
+*.test
+
+# Ignore the .idea folder (used by JetBrains IDEs such as IntelliJ IDEA, PyCharm, etc.)
+.idea/
